@@ -1,0 +1,51 @@
+System.out.println("SampleUserManagerImpl.doGetAllUsersContainingName - This operation is not implemented !");  
+		ArrayList users = new ArrayList(); 
+		return users.iterator(); 
+	} 
+   
+	protected Iterator doGetAllUsersContainingId(String userId, String role) 
+				throws UserProfileResourceException { 
+				 
+		System.out.println("SampleUserManagerImpl.doGetAllUsersContainingId - This operation is not implemented !");  
+		ArrayList users = new ArrayList(); 
+		return users.iterator(); 
+	} 
+ 
+	protected Iterator doGetAllLikeInOrder(String[] columns, String[] values, 
+		String[] orders, boolean isDescending, int pageNum, int recPerPage, String role) 
+		throws UserProfileResourceException { 
+				 
+		System.out.println("SampleUserManagerImpl.doGetAllLikeInOrder - This operation is not implemented !");  
+		ArrayList users = new ArrayList(); 
+		return users.iterator(); 
+	} 
+ 
+	protected String doGetFieldName(int fieldContant, String role)  
+			throws UserProfileResourceException { 
+ 
+		System.out.println("SampleUserManagerImpl.doGetFieldName - This operation is not implemented !");  
+		return null; 
+	} 
+ 
+	protected boolean doIsActive(String userId) throws UserProfileResourceException { 
+ 
+		System.out.println("SampleUserManagerImpl.doIsActive - This operation is not implemented !");  
+		return false; 
+	} 
+   
+	protected boolean doRemoveUser(String userId) throws UserProfileResourceException { 
+		 
+		System.out.println("SampleUserManagerImpl.doRemoveUser - This operation is not implemented !");  
+		return false; 
+	} 
+ 
+	protected boolean doUpdateUser(User user) throws UserProfileResourceException { 
+ 
+		System.out.println("SampleUserManagerImpl.doUpdateUser - This operation is not implemented !");  
+		return false; 
+	} 
+   
+	protected User doGetUserInstance() throws UserProfileResourceException { 
+		 
+		System.out.println("SampleUserManagerImpl.doGetUserInstance - This operation is not implemented !");  
+		return null; 
